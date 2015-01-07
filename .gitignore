@@ -1,0 +1,21 @@
+#Virtual Environment
+env
+.Python
+bin
+lib
+includes
+
+.DS_Store
+
+.idea
+
+tmp
+
+*.iml
+*.pyc
+*.db
+alembic.ini
+
+#config with keys and hashs and other super secret stuff
+
+config.py
