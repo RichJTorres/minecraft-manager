@@ -4,8 +4,8 @@ from flask.ext.security import Security, SQLAlchemyUserDatastore
 
 
 app = Flask(__name__)
-app.config.from_object('app.config')
-app.config.from_envvar('APPLICATION_SETTINGS')
+# app.config.from_object('app.config')
+app.config.from_envvar('APPLICATION_SE TTINGS')
 
 db = SQLAlchemy(app)
 
